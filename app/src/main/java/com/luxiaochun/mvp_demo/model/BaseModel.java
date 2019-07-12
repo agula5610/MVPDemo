@@ -17,8 +17,8 @@ public abstract class BaseModel<T, V> {
         return this;
     }
 
-    public abstract void excute(Callback<T> callback);
+    public abstract void excute(Callback<V> callback);
 
-    protected void requestGetAPI(String url,Callback<T> callback){
+    protected void requestGetAPI(String url,Callback<V> callback){
     }
 }
